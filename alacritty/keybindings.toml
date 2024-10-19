@@ -1,0 +1,4 @@
+[keyboard]
+bindings = [
+    { key = "N", mods = "Control|Shift", command = { program = "alacritty", args = ["--working-directory", "."]}}
+]

@@ -1,0 +1,57 @@
+import = [
+    "~/.config/alacritty/themes/themes/ayu_dark.toml",
+    "~/.config/alacritty/keybindings.toml"
+]
+
+# theme = "Ayu-Mirage"
+
+[colors.bright]
+black = "#686868"
+blue = "#5CCFE6"
+cyan = "#95E6CB"
+green = "#A6CC70"
+magenta = "#FFEE99"
+red = "#F27983"
+white = "#FFFFFF"
+yellow = "#FFCC66"
+
+[colors.normal]
+black = "#191E2A"
+blue = "#73D0FF"
+cyan = "#95E6CB"
+green = "#BAE67E"
+magenta = "#FFD580"
+red = "#FF3333"
+white = "#C7C7C7"
+yellow = "#FFA759"
+
+[colors.primary]
+background = "#202734"
+foreground = "#CBCCC6"
+
+[font]
+size = 15
+# normal = { family = "MesloLGS", style = "Regular"}
+
+[font.normal]
+family = "MesloLGS NF"
+# family = "FiraCode"
+
+[scrolling]
+history = 10000
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+opacity = 0.7
+
+[env]
+# TERM = "alacritty-direct"
+
+
+
+# [keyboard]
+# bindings = [
+#    { key = "N", mods = "Control|Shift", command = { program = "alacritty", args = ["--working-directory", "."] } },
+# ]

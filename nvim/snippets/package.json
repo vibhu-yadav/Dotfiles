@@ -1,0 +1,19 @@
+{
+	"name": "custom-snippets",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "cpp",
+				"path": "./cpp/contest.json"
+			},
+			{
+				"language": "cpp",
+				"path": "./cpp/cses.json"
+			},
+			{
+				"language": "cpp",
+				"path": "./cpp/base_az.json"
+			}
+		]
+	}
+}
