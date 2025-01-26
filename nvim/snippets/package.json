@@ -13,6 +13,14 @@
 			{
 				"language": "cpp",
 				"path": "./cpp/cpp_common.json"
+			},
+			{
+				"language": "cpp",
+				"path": "./cpp/range.json"
+			},
+			{
+				"language": "cpp",
+				"path": "./cpp/usaco.json"
 			}
 		]
 	}

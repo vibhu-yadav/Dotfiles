@@ -31,6 +31,7 @@
 			"#define bg(x) begin(x)",
 			"#define all(x) bg(x), end(x)",
 			"#define srt(x) sort(all(x))",
+			"#define rng(i, begin, end) for (__typeof(end) i = (begin) - ((begin) > (end)); i != (end) - ((begin) > (end)); i += 1 - 2 * ((begin) > (end)))",
 			"",
 			"// shorthands for common types / data structures",
 			"typedef long long ll;",

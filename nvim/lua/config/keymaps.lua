@@ -106,6 +106,9 @@ vim.api.nvim_set_keymap("v", "<S-Tab>", ":<C-u>lua ShiftLinesBackward()<CR>", { 
 -- File Navigator
 vim.keymap.set("n", "<leader>t", vim.cmd.Ex, { desc = "File Navigator" })
 
+-- Clear out the current file
+vim.api.nvim_set_keymap("n", "<S-Del>", ":%d<CR>", { noremap = true, silent = true })
+
 -- cool move line in visual mode
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
