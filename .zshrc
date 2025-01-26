@@ -78,6 +78,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+source /usr/share/doc/pkgfile/command-not-found.zsh
 plugins=(
 	git
 	zsh-autosuggestions
@@ -85,6 +86,7 @@ plugins=(
 	colored-man-pages
 	history-substring-search
 	fzf
+	command-not-found
 	#zsh-autocomplete
 )
 
@@ -231,6 +233,7 @@ atcoder() { cd "/mnt/E/Competitive-Programming/AtCoder"; }
 codechef() { cd "/mnt/E/Competitive-Programming/CodeChef"; }
 cses() { cd "/mnt/E/Competitive-Programming/CSES"; }
 pc() { cd "/mnt/E/Placement/"; }
+learn() { cd "/mnt/E/Learning/";}
 tests() { cd "/mnt/E/Placement/Tests/"; }
 btp() { cd "/mnt/E/Thesis"; }
 
@@ -264,3 +267,4 @@ alias v="xclip -o"
 
 export OPENSSL_DIR="/usr"
 
+export TF_CPP_MIN_LOG_LEVEL='2'
